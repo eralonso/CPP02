@@ -1,8 +1,6 @@
 #include	<iostream>
 #include	"Fixed.hpp"
 
-int	bitFrac = 8;
-
 Fixed::Fixed( void )
 {
 	std::cout << "Default constructor called" << std::endl;

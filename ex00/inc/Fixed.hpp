@@ -5,7 +5,7 @@ class Fixed
 {
 	private:
 		int			_intp;
-		static const int	_bitFrac;
+		static const int	_bitFrac = 8;
 	public:
 		Fixed( void );
 		Fixed( Fixed& fixp );
